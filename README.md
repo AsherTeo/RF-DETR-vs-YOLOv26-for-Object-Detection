@@ -2,8 +2,7 @@
 
 YOLO-based detectors are widely adopted in object detection due to their real-time inference speed and strong detection accuracy. Although transformer-based detectors have been proposed as alternatives, they often introduce higher computational cost and slower inference, which limits their practical deployment in real-world systems.
 
-Recent developments such as RF-DETR demonstrate that transformer-based architectures can achieve competitive mean Average Precision (mAP) while maintaining efficient inference speed.  
-This raises the question of whether transformer-based detectors can outperform YOLO-based models under standard training conditions across different datasets.
+Recent developments such as RF-DETR demonstrate that transformer-based architectures can attain competitive mean Average Precision (mAP) while preserving efficient inference speed. This is accomplished through the use of Neural Architecture Search (NAS) with DINOv2 and deformable cross-attention in place of standard cross-attention, thereby significantly reducing inference time complexity. This raises the question of whether transformer-based detectors can outperform YOLO-based models under standard training conditions across different datasets.
 
 In this project, we compare the performance of RF-DETR and YOLOv26 on five object detection datasets using a unified experimental setup. Both models are trained and evaluated under identical data splits and image resolutions to ensure a fair comparison. Performance is assessed using standard object detection metrics, including precision, recall, and mean Average Precision (mAP).
 
