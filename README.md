@@ -97,3 +97,17 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 | RF-DETR | All Data     | 58     | 0.933     | **0.934** | 0.920  | 0.539     |
 | YOLO 26 | 25 Few-Shot  | 120    | 0.911     | 0.822  | 0.883  | 0.519     |
 | RF-DETR | 25 Few-Shot  | 100    | 0.879     | 0.884  | 0.857  | 0.423     |
+
+## 5. Pros and Cons
+
+### YOLOv26  
+**Pros:**
+- Supports many data augmentation strategies (e.g., Mosaic, CutMix), which helps optimize model performance.  
+- Highly optimized and widely used, making training and inference efficient.  
+- Faster training compared to transformer-based detectors.  
+- Large community and extensive documentation, so errors and issues are easier to troubleshoot.  
+- Achieves better mAP compared to RF-DETR across most datasets.
+
+**Cons:**
+- Requires a larger amount of training data to become robust, especially for recall.  
+- Recall performance is generally lower than RF-DETR, particularly in few-shot settings.  
