@@ -55,8 +55,6 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 
 ### Indoor Fire
 
-**All Training Data**
-
 | Model   | Training Data | Epochs | Learning Rate | Image Size | Precision | Recall | mAP@50 | mAP@50–95 |
 |---------|------|--------|----------------|------------|-----------|--------|--------|-----------|
 | YOLO 26 | All  | 100    | 0.001          | 640        | 0.957     | 0.923  | 0.950  | 0.731     |
