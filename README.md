@@ -51,42 +51,6 @@ Due to differences in optimization behavior, different learning rates were used 
 
 In addition, a 25-shot training configuration was evaluated to analyze model performance under limited data conditions.
 
-## 4. Result
-
-### Indoor Fire
-
-### All Training Data
-
-| Model   | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
-|---------|--------|-----------|--------|--------|-----------|
-| YOLO 26 | 100    | 0.957     | 0.923  | 0.950  | 0.731     |
-| RF-DETR | 40     | 0.959     | 0.950  | 0.940  | 0.675     |
-
-### 25 Few Shot 
-
-| Model   | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
-|---------|--------|-----------|--------|--------|-----------|
-| YOLO 26 | 200    | 0.872     | 0.474  | 0.674  | 0.448     |
-| RF-DETR | 82     | 0.831     | 0.734  | 0.695  | 0.428     |
-
-### Aquarium
-
-### All Training Data
-
-| Model   | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
-|---------|--------|-----------|--------|--------|-----------|
-| YOLO 26 | 58     | 0.881     | 0.743  | 0.818  | 0.610     |
-| RF-DETR | 54     | 0.891     | 0.814  | 0.780  | 0.556     |
-
-### 25 Few Shot 
-
-| Model   | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
-|---------|--------|-----------|--------|--------|-----------|
-| YOLO 26 | 105    | 0.792     | 0.631  | 0.720  | 0.536     |
-| RF-DETR | 74     | 0.844     | 0.731  | 0.681  | 0.484     ||
-
-### Floor Plans
-
 ## 4. Results
 
 ### Indoor Fire
