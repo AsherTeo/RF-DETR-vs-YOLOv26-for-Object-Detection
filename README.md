@@ -51,6 +51,17 @@ Due to differences in optimization behavior, different learning rates were used 
 
 In addition, a 25-shot training configuration was evaluated to analyze model performance under limited data conditions.
 
+## 4. Result
+
+### Indoor Fire
+
+**All Training Data**
+
+| Model   | Epochs | Learning Rate | Image Size | Precision | Recall | mAP@50 | mAP@50–95 |
+|---------|--------|----------------|------------|-----------|--------|--------|-----------|
+| YOLOv26 | 100    | 0.001          | 640        | 0.957     | 0.923  | 0.950  | 0.731     |
+| RF-DETR | 40     | 0.0001         | 640        | 0.959     | 0.950  | 0.940  | 0.675     |
+
 
 
 
