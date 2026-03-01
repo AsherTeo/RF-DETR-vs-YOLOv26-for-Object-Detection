@@ -57,10 +57,15 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 
 **All Training Data**
 
-| Model   | Epochs | Learning Rate | Image Size | Precision | Recall | mAP@50 | mAP@50–95 |
-|---------|--------|----------------|------------|-----------|--------|--------|-----------|
-| YOLOv26 | 100    | 0.001          | 640        | 0.957     | 0.923  | 0.950  | 0.731     |
-| RF-DETR | 40     | 0.0001         | 640        | 0.959     | 0.950  | 0.940  | 0.675     |
+| Model   | Data | Epochs | Learning Rate | Image Size | Precision | Recall | mAP@50 | mAP@50–95 |
+|---------|------|--------|----------------|------------|-----------|--------|--------|-----------|
+| YOLOv26 | All  | 100    | 0.001          | 640        | 0.957     | 0.923  | 0.950  | 0.731     |
+| RF-DETR | All  | 40     | 0.0001         | 640        | 0.959     | 0.950  | 0.940  | 0.675     |
+
+| Model   | Data | Epochs | Learning Rate | Image Size | Precision | Recall | mAP@50 | mAP@50–95 |
+|---------|------|--------|----------------|------------|-----------|--------|--------|-----------|
+| YOLO    | 25   | 200    | 0.001          | 640        | 0.872     | 0.474  | 0.674  | 0.448     |
+| RF-DETR | 25   | 82     | 0.0001         | 640        | 0.831     | 0.734  | 0.695  | 0.428     |
 
 
 
