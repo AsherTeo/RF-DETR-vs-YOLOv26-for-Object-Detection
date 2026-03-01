@@ -65,7 +65,20 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 | YOLO 26   | 25 Few-shot | 200    | 0.001          | 640        | 0.872     | 0.474  | 0.674  | 0.448     |
 | RF-DETR  | 25 Few-shot  | 82     | 0.0001         | 640        | 0.831     | 0.734  | 0.695  | 0.428     |
 
+### Aquarium
 
+| Model   | Data | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
+|---------|------|--------|-----------|--------|--------|-----------|
+| YOLOv26 | All  | 58     | 0.881     | 0.743  | 0.818  | 0.610     |
+| RF-DETR | All  | 54     | 0.891     | 0.814  | 0.780  | 0.556     |
 
+| Model   | Data | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
+|---------|------|--------|-----------|--------|--------|-----------|
+| YOLOv26 | 25   | 105    | 0.792     | 0.631  | 0.720  | 0.536     |
+| RF-DETR | 25   | 74     | 0.844     | 0.731  | 0.681  | 0.484     |
 
+### Floor Plans
 
+### Entrance
+
+### Vertebra
