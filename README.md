@@ -55,15 +55,15 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 
 ### Indoor Fire
 
-| Model   | Training Data | Epochs | Learning Rate | Image Size | Precision | Recall | mAP@50 | mAP@50–95 |
-|---------|------|--------|----------------|------------|-----------|--------|--------|-----------|
-| YOLO 26 | All  | 100    | 0.001          | 640        | 0.957     | 0.923  | 0.950  | 0.731     |
-| RF-DETR | All  | 40     | 0.0001         | 640        | 0.959     | 0.950  | 0.940  | 0.675     |
+| Model   | Training Data | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
+|---------|----------------|--------|-----------|--------|--------|-----------|
+| YOLO 26 | All            | 100    | 0.957     | 0.923  | 0.950  | 0.731     |
+| RF-DETR | All            | 40     | 0.959     | 0.950  | 0.940  | 0.675     |
 
-| Model   | Training Data | Epochs | Learning Rate | Image Size | Precision | Recall | mAP@50 | mAP@50–95 |
-|---------|------|--------|----------------|------------|-----------|--------|--------|-----------|
-| YOLO 26   | 25 Few-shot | 200    | 0.001          | 640        | 0.872     | 0.474  | 0.674  | 0.448     |
-| RF-DETR  | 25 Few-shot  | 82     | 0.0001         | 640        | 0.831     | 0.734  | 0.695  | 0.428     |
+| Model   | Training Data | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
+|---------|----------------|--------|-----------|--------|--------|-----------|
+| YOLO 26 | 25 Few-shot    | 200    | 0.872     | 0.474  | 0.674  | 0.448     |
+| RF-DETR | 25 Few-shot    | 82     | 0.831     | 0.734  | 0.695  | 0.428     |
 
 ### Aquarium
 
@@ -74,8 +74,8 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 
 | Model   | Data | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
 |---------|------|--------|-----------|--------|--------|-----------|
-| YOLOv26 | 25   | 105    | 0.792     | 0.631  | 0.720  | 0.536     |
-| RF-DETR | 25   | 74     | 0.844     | 0.731  | 0.681  | 0.484     |
+| YOLOv26 | 25 Few-shot    | 105    | 0.792     | 0.631  | 0.720  | 0.536     |
+| RF-DETR | 25 Few-shot    | 74     | 0.844     | 0.731  | 0.681  | 0.484     |
 
 ### Floor Plans
 
