@@ -95,6 +95,7 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 | RF-DETR | 56     | 0.881     | 0.844  | 0.802  | 0.522     |
 
 ### 25 Few Shot 
+
 | Model   | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
 |---------|--------|-----------|--------|--------|-----------|
 | YOLO 26 | 133    | 0.851     | 0.640  | 0.750  | 0.500     |
@@ -102,4 +103,32 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 
 ### Entrance
 
+### All Training Data
+
+| Model   | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
+|---------|--------|-----------|--------|--------|-----------|
+| YOLO 26 | 100    | 0.750     | 0.483  | 0.650  | 0.448     |
+| RF-DETR | 34     | 0.750     | 0.621  | 0.591  | 0.395     |
+
+### 25 Few Shot 
+
+| Model   | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
+|---------|--------|-----------|--------|--------|-----------|
+| YOLO 26 | 32     | 1.000     | 0.0345 | 0.517  | 0.259     |
+| RF-DETR | 78     | 0.684     | 0.448  | 0.350  | 0.218     |
+
 ### Vertebra
+
+### All Training Data
+
+| Model   | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
+|---------|--------|-----------|--------|--------|-----------|
+| YOLO 26 | 65     | 0.931     | 0.919  | 0.934  | 0.600     |
+| RF-DETR | 58     | 0.933     | 0.934  | 0.920  | 0.539     |
+
+### 25 Few Shot 
+
+| Model   | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
+|---------|--------|-----------|--------|--------|-----------|
+| YOLO 26 | 120    | 0.911     | 0.822  | 0.883  | 0.519     |
+| RF-DETR | 100    | 0.879     | 0.884  | 0.857  | 0.423     |
