@@ -125,3 +125,7 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 - Achieves worse mAP compared to YOLOv26 in most experiments.  
 - Data augmentation techniques such as Mosaic may not improve performance, since RF-DETR relies on global self-attention rather than local receptive fields.  
 - Limited community resources and fewer troubleshooting examples compared to YOLO-based models.
+
+## 6. Conclusion
+
+- 
