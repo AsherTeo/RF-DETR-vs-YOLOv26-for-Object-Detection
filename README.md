@@ -42,12 +42,13 @@ Goal: Detect individual vertebrae to support Cobb angle estimation and scoliosis
 
 ## 3. Method
 
-We trained both YOLOv26 and RF-DETR on the same training dataset using identical data splits.  
+We trained both YOLOv26 and RF-DETR on the same training dataset using identical data splits.
 
-Both models were trained with an input resolution of 640 × 640 using the large (-L) variant of each architecture.  
-Early stopping was applied during training to mitigate overfitting.
+Both models were trained with an input resolution of 640 × 640 using the large (-L) variant of each architecture. Early stopping was applied during training to mitigate overfitting.
 
-Due to differences in optimization behavior, different learning rates were used for the two models, with RF-DETR trained using a smaller learning rate to ensure stable convergence.
+Due to differences in optimization behavior, different learning rates were used for the two models: YOLOv26 was trained with a learning rate of 0.001, while RF-DETR was trained with a smaller learning rate of 0.0001 to ensure stable convergence.
+
+For evaluation, the confidence threshold was fixed at 0.2 for both YOLOv26 and RF-DETR to ensure a fair comparison.
 
 In addition, a 25-shot training configuration was evaluated to analyze model performance under limited data conditions.
 
