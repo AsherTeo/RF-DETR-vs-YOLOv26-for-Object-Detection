@@ -102,12 +102,25 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 
 ### YOLOv26  
 **Pros:**
-- Supports many data augmentation strategies (e.g., Mosaic, CutMix), which helps optimize model performance.  
+- Supports many data augmentation (e.g., Mosaic, CutMix), which helps optimize model performance.  
 - Highly optimized and widely used, making training and inference efficient.  
 - Faster training compared to transformer-based detectors.  
 - Large community and extensive documentation, so errors and issues are easier to troubleshoot.  
 - Achieves better mAP compared to RF-DETR across most datasets.
+- Does not require a large amount of GPU VRAM
 
 **Cons:**
-- Requires a larger amount of training data to become robust, especially for recall.  
-- Recall performance is generally lower than RF-DETR, particularly in few-shot settings.  
+- Requires a larger amount of training data to become robust
+- Recall performance is generally lower than RF-DETR, particularly in few-shot settings.
+
+### RF-DETR  
+**Pros:**
+- Does not require a large amount of training data to become robust, especially in terms of recall.  
+- Achieves higher recall compared to YOLOv26 across most datasets.  
+- Converges in fewer epochs, requiring less training time to reach stable performance.
+
+**Cons:**
+- Requires a large amount of GPU VRAM due to the transformer-based architecture.  
+- Achieves worse mAP compared to YOLOv26 in most experiments.  
+- Data augmentation techniques such as Mosaic may not improve performance, since RF-DETR relies on global self-attention rather than local receptive fields.  
+- Limited community resources and fewer troubleshooting examples compared to YOLO-based models.
