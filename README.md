@@ -74,7 +74,7 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 | Ground Truth | YOLOv26 | RF-DETR |
 |-------------|---------|---------|
 | ![GT_1](https://github.com/user-attachments/assets/67a17f28-d042-4af1-9388-76940d63378f) | ![YOLO_1](https://github.com/user-attachments/assets/0264400b-7d0c-44f5-a8b1-93eb1b9475ab) | ![RF_1](https://github.com/user-attachments/assets/4a2d3fcd-8a28-4ba8-a113-498ca11151a3) |
-| ![GT_2](https://github.com/user-attachments/assets/139d8a9a-7d78-4ffb-b2ed-915f0a6fa962) | ![YOLO_2](https://github.com/user-attachments/assets/35a02a69-2e2d-445d-88f4-17fbb0dde47a) | ![RF_2](https://github.com/user-attachments/assets/02890ed4-3c69-412a-a2e2-2d577ee41ec4) |
+| ![GT_3](https://github.com/user-attachments/assets/7bfbb96b-4956-47dc-8165-c1e2c5f3c066) | ![YOLO_3](https://github.com/user-attachments/assets/3851a5e1-89fc-41f1-abcd-78e9fe3174aa) | ![RF_3](https://github.com/user-attachments/assets/50387c94-9dca-42a1-982b-73ce3f965025) |
 
 | Model   | Setting      | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
 |---------|--------------|--------|-----------|--------|--------|-----------|
