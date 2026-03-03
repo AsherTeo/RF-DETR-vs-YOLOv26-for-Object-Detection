@@ -56,6 +56,10 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 
 ### Indoor Fire
 
+| Ground Truth| YOLO 26 | RF DETR |
+|-----------|--------------------|--------------------|
+|  | ![test_723](https://github.com/user-attachments/assets/d00642f9-747d-4c48-8fde-37a3b192aa45)|![test_723](https://github.com/user-attachments/assets/14f11454-9a35-457d-8f8b-743153ddcbe6)|
+
 | Model   | Setting      | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
 |---------|--------------|--------|-----------|--------|--------|-----------|
 | YOLO 26 | All Data     | 100    | 0.957     | 0.923  | 0.950  | 0.731     |
