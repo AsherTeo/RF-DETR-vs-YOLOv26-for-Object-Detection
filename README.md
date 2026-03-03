@@ -94,6 +94,11 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 
 ### Entrance
 
+| Ground Truth | YOLOv26 | RF-DETR |
+|-------------|---------|---------|
+| ![GT_1](https://github.com/user-attachments/assets/d6b8acb3-b835-46c2-8366-bae3dc92df9e) | ![YOLO_1](https://github.com/user-attachments/assets/ec24e893-5178-4158-b7d6-655d67118923) | ![RF_1](https://github.com/user-attachments/assets/fdc0fbad-b864-4ffe-aed9-9bbb4dbaab98) |
+| ![GT_2](https://github.com/user-attachments/assets/d37b1fa8-28ae-48f1-967a-a8e1f01c5a75) | ![YOLO_2](https://github.com/user-attachments/assets/3a28e074-9bd0-4233-93ae-315a4a02ddb2) | ![RF_2](https://github.com/user-attachments/assets/524f8e76-4aae-40b9-a7c7-a27b32ddf2f8) |
+
 | Model   | Setting      | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
 |---------|--------------|--------|-----------|--------|--------|-----------|
 | YOLO 26 | All Data     | 100    | 0.750     | 0.483  | 0.650  | 0.448     |
