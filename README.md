@@ -80,6 +80,11 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 
 ### Floor Plans
 
+| Ground Truth | YOLOv26 | RF-DETR |
+|-------------|---------|---------|
+|![975_png rf 4ad67b65bf1f6a06d16fddfea5a7a6fe](https://github.com/user-attachments/assets/efdc6f31-2e13-4b87-b231-e65c7233fcea)|![975_png rf 4ad67b65bf1f6a06d16fddfea5a7a6fe](https://github.com/user-attachments/assets/301da656-c427-43ee-94a1-7d81990ba095)|![975_png rf 4ad67b65bf1f6a06d16fddfea5a7a6fe](https://github.com/user-attachments/assets/d82768ff-9dca-4c38-9328-61d772a4dd81)|
+
+
 | Model   | Setting      | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
 |---------|--------------|--------|-----------|--------|--------|-----------|
 | YOLO 26 | All Data     | 78     | 0.875     | 0.809  | 0.852  | 0.584     |
