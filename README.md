@@ -71,6 +71,14 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 
 ### Aquarium
 
+| Ground Truth | YOLOv26 | RF-DETR |
+|-------------|---------|---------|
+| 
+
+![IMG_2354_jpeg_jpg rf 396e872c7fb0a95e911806986995ee7a](https://github.com/user-attachments/assets/67a17f28-d042-4af1-9388-76940d63378f)
+![IMG_2354_jpeg_jpg rf 396e872c7fb0a95e911806986995ee7a](https://github.com/user-attachments/assets/0264400b-7d0c-44f5-a8b1-93eb1b9475ab)
+![IMG_2354_jpeg_jpg rf 396e872c7fb0a95e911806986995ee7a](https://github.com/user-attachments/assets/4a2d3fcd-8a28-4ba8-a113-498ca11151a3)
+
 | Model   | Setting      | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
 |---------|--------------|--------|-----------|--------|--------|-----------|
 | YOLO 26 | All Data     | 58     | 0.881     | 0.743  | 0.818  | 0.610     |
