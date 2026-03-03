@@ -73,11 +73,8 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 
 | Ground Truth | YOLOv26 | RF-DETR |
 |-------------|---------|---------|
-| 
-
-![IMG_2354_jpeg_jpg rf 396e872c7fb0a95e911806986995ee7a](https://github.com/user-attachments/assets/67a17f28-d042-4af1-9388-76940d63378f)
-![IMG_2354_jpeg_jpg rf 396e872c7fb0a95e911806986995ee7a](https://github.com/user-attachments/assets/0264400b-7d0c-44f5-a8b1-93eb1b9475ab)
-![IMG_2354_jpeg_jpg rf 396e872c7fb0a95e911806986995ee7a](https://github.com/user-attachments/assets/4a2d3fcd-8a28-4ba8-a113-498ca11151a3)
+| ![GT_1](https://github.com/user-attachments/assets/67a17f28-d042-4af1-9388-76940d63378f) | ![YOLO_1](https://github.com/user-attachments/assets/0264400b-7d0c-44f5-a8b1-93eb1b9475ab) | ![RF_1](https://github.com/user-attachments/assets/4a2d3fcd-8a28-4ba8-a113-498ca11151a3) |
+| ![GT_2](https://github.com/user-attachments/assets/139d8a9a-7d78-4ffb-b2ed-915f0a6fa962) | ![YOLO_2](https://github.com/user-attachments/assets/35a02a69-2e2d-445d-88f4-17fbb0dde47a) | ![RF_2](https://github.com/user-attachments/assets/02890ed4-3c69-412a-a2e2-2d577ee41ec4) |
 
 | Model   | Setting      | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
 |---------|--------------|--------|-----------|--------|--------|-----------|
@@ -91,6 +88,7 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 | Ground Truth | YOLOv26 | RF-DETR |
 |-------------|---------|---------|
 |![975_png rf 4ad67b65bf1f6a06d16fddfea5a7a6fe](https://github.com/user-attachments/assets/efdc6f31-2e13-4b87-b231-e65c7233fcea)|![975_png rf 4ad67b65bf1f6a06d16fddfea5a7a6fe](https://github.com/user-attachments/assets/d82768ff-9dca-4c38-9328-61d772a4dd81)|![975_png rf 4ad67b65bf1f6a06d16fddfea5a7a6fe](https://github.com/user-attachments/assets/301da656-c427-43ee-94a1-7d81990ba095)|
+
 
 
 | Model   | Setting      | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
