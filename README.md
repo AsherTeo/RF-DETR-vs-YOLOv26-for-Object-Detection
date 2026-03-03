@@ -56,9 +56,11 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 
 ### Indoor Fire
 
-| Ground Truth| YOLO 26 | RF DETR |
-|-----------|--------------------|--------------------|
-|  | ![test_723](https://github.com/user-attachments/assets/d00642f9-747d-4c48-8fde-37a3b192aa45)|![test_723](https://github.com/user-attachments/assets/14f11454-9a35-457d-8f8b-743153ddcbe6)|
+| Ground Truth | YOLOv26 | RF-DETR |
+|-------------|---------|---------|
+| ![test_920](https://github.com/user-attachments/assets/3a17d83e-4650-4c91-8c8b-ed584a40d3ea) | ![test_920_yolo](https://github.com/user-attachments/assets/c1e9c818-55d3-4c55-a74b-74a63fd1a396) | ![test_920_rfdetr](https://github.com/user-attachments/assets/59b63559-2423-4779-8167-fd7320cd1b3d) |
+| ![test_496](https://github.com/user-attachments/assets/9c988541-38ec-4067-9a40-f7fe8f29acff) | ![test_496_yolo](https://github.com/user-attachments/assets/19f2bc12-e9a0-44ed-ad22-74dc28a0825f) | ![test_496_rfdetr](https://github.com/user-attachments/assets/0c9544c1-6703-49d6-b49f-6b8de41e29e7) |
+
 
 | Model   | Setting      | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
 |---------|--------------|--------|-----------|--------|--------|-----------|
