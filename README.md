@@ -103,6 +103,12 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 
 ### Vertebra
 
+| Ground Truth | YOLOv26 | RF-DETR |
+|-------------|---------|---------|
+| ![sunhl-1th-26-Jul-2016-90-B-AP_jpg rf 1615e5b1acb54001f071aff31b6562c4](https://github.com/user-attachments/assets/9c386525-a346-45ef-a4c4-c3c153a42070)
+|![sunhl-1th-26-Jul-2016-89-B-AP_jpg rf 09ffffe45c38f2512d70636e859237b0](https://github.com/user-attachments/assets/dc2b0bab-31d1-44cd-a4d7-b49485164ed5) |![sunhl-1th-26-Jul-2016-89-B-AP_jpg rf 09ffffe45c38f2512d70636e859237b0](https://github.com/user-attachments/assets/ae4e9588-29e4-4ec9-8a5e-aa55cbab097e)|
+
+
 | Model   | Setting      | Epochs | Precision | Recall | mAP@50 | mAP@50–95 |
 |---------|--------------|--------|-----------|--------|--------|-----------|
 | YOLO 26 | All Data     | 65     | 0.931     | 0.919  | 0.934  | 0.600     |
