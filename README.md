@@ -153,6 +153,11 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 - Data augmentation techniques such as Mosaic may not improve performance, since RF-DETR relies on global self-attention rather than local receptive fields.  
 - Limited community resources and fewer troubleshooting examples compared to YOLO-based models.
 
-## 6. Conclusion
+## 6. Inference 
+
+https://github.com/user-attachments/assets/9c77a25c-8500-469a-b24e-bff9e06aedd5
+
+
+## 7. Conclusion
 
 - 
