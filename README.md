@@ -1,3 +1,14 @@
+## Acknowledgement
+This project is based on the implementation of
+- [YOLO 26]([https://github.com/longzw1997/Open-GroundingDino](https://github.com/ultralytics/ultralytics))
+- [RF DETR](https://github.com/roboflow/rf-detr)
+
+We thank the original authors and contributors for making their work publicly available.
+
+## Installation
+This project builds upon the original implementations.
+For environment setup and dependencies, please follow the installation instructions provided in the respective repositories.
+
 ## 1. Introduction
 
 YOLO-based detectors are widely adopted in object detection due to their real-time inference speed and strong detection accuracy. Although transformer-based detectors have been proposed as alternatives, they often introduce higher computational cost and slower inference, which limits their practical deployment in real-world systems.
