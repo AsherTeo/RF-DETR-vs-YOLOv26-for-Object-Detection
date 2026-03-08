@@ -4,7 +4,7 @@ YOLO-based detectors are widely adopted in object detection due to their real-ti
 
 Recent developments such as RF-DETR demonstrate that transformer-based architectures can attain competitive mean Average Precision (mAP) while preserving efficient inference speed. This is accomplished through the use of Neural Architecture Search (NAS) with DINOv2 and deformable cross-attention in place of standard cross-attention, thereby significantly reducing inference time complexity. This raises the question of whether transformer-based detectors can outperform YOLO-based models under standard training conditions across different datasets.
 
-In this project, we compare the performance of RF-DETR and YOLOv26 on five object detection datasets using a unified experimental setup. Both models are trained and evaluated under identical data splits and image resolutions to ensure a fair comparison. Performance is assessed using standard object detection metrics, including precision, recall, and mean Average Precision (mAP).
+In this project, we compare the performance of RF-DETR and YOLO 26 on five object detection datasets using a unified experimental setup. Both models are trained and evaluated under identical data splits and image resolutions to ensure a fair comparison. Performance is assessed using standard object detection metrics, including precision, recall, and mean Average Precision (mAP).
 
 Through this study, we aim to analyze the strengths and weaknesses of each model and provide insights into their behavior across different datasets and training conditions.
 
@@ -42,7 +42,7 @@ Goal: Detect individual vertebrae to support Cobb angle estimation and scoliosis
 
 ## 3. Method
 
-We trained both YOLOv26 and RF-DETR on the same training dataset using identical data splits.
+We trained both YOLO 26 and RF-DETR on the same training dataset using identical data splits.
 
 Both models were trained with an input resolution of 640 × 640 using the large (-L) variant of each architecture. Early stopping was applied during training to mitigate overfitting.
 
@@ -128,25 +128,28 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 
 ## 5. Pros and Cons
 
-### YOLO 26  
-**Pros:**
-- Supports many data augmentation (e.g., Mosaic, CutMix), which helps optimize model performance.  
-- Highly optimized and widely used, making training and inference efficient.  
-- Faster training compared to transformer-based detectors.  
-- Large community and extensive documentation, so errors and issues are easier to troubleshoot.  
-- Achieves better mAP compared to RF-DETR across most datasets.
-- Does not require a large amount of GPU VRAM
+### YOLOv26
+**Pros**
+- Supports many data augmentation techniques (e.g., Mosaic, CutMix), which help improve model performance.
+- Highly optimized and widely used, making both training and inference efficient.
+- Faster training compared to transformer-based detectors.
+- Large community support and extensive documentation, making troubleshooting easier.
+- Achieves higher mAP compared to RF-DETR across most datasets.
+- Does not require large amounts of GPU VRAM.
 
-**Cons:**
-- Requires a larger amount of training data to become robust
-- Recall performance is generally lower than RF-DETR, particularly in few-shot settings.
+**Cons**
+- Requires a larger amount of training data to achieve robust performance.
+- Recall is generally lower than RF-DETR, particularly in few-shot settings.
+- Small objects (fire) may be harder to detect compared to RF-DETR.
 
-### RF-DETR  
-**Pros:**
-- Does not require a large amount of training data to become robust, especially in terms of recall.  
-- Achieves higher recall compared to YOLOv26 across most datasets.  
+
+### RF-DETR
+**Pros**
+- Performs better with smaller training datasets compared to YOLO 26, especially in terms of recall.
+- Achieves higher recall compared to YOLO 26 across most datasets.
 - Converges in fewer epochs, requiring less training time to reach stable performance.
-
+- Better detection performance for small objects (e.g., fire).
+- 
 **Cons:**
 - Requires a large amount of GPU VRAM due to the transformer-based architecture.  
 - Achieves worse mAP compared to YOLOv26 in most experiments.  
@@ -157,15 +160,17 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 
 ## Inference Results
 
-We tested **7 fire videos** using YOLOv26 and RF-DETR with inference on an **RTX 5070 Ti** GPU.  
+We tested **7 fire videos** using YOLO 26 and RF-DETR with inference on an **RTX 5070 Ti** GPU.  
 The table below reports the average performance across all test videos.
 
-| Model | Recall | mAP@0.5 | Average Latency (ms) |
-|------|--------|---------|----------------------|
-| YOLOv26 | 0.923 | **0.950** | **22.85** |
-| RF-DETR | **0.950** | 0.940 | 46.01 |
+| Model | Average Latency (ms) | Inference FPS |
+|------|----------------------|---------------|
+| YOLOv26 | 22.85 | 43.77 |
+| RF-DETR | 21.74 | 46.01 |
 
 ## Video Results
+
+Below are example inference results comparing YOLOv26 and RF-DETR on fire detection videos.
 
 Comparison Video 1 
 https://youtu.be/p8WVWJ38CXw  
@@ -178,4 +183,8 @@ https://youtu.be/j7KvUfRjH3w
 
 ## 7. Conclusion
 
-- 
+- Across five datasets, RF-DETR achieves higher recall and performs better when detecting small objects such as fire.
+
+- YOLOv26 achieves higher mAP, indicating more precise object localization with tighter bounding boxes. 
+
+- Overall, both models show strong performance with different strengths depending on the detection requirements.
