@@ -158,7 +158,7 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 **Pros**
 - Performs better with smaller training datasets compared to YOLO 26, especially in terms of recall.
 - Achieves higher recall compared to YOLO 26 across most datasets.
-- Converges in fewer epochs, requiring less training time to reach stable performance.
+- Converges in fewer epochs, but each epoch takes longer to train.
 - Better detection performance for small objects (e.g., fire).
 - 
 **Cons:**
