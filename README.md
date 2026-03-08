@@ -1,6 +1,6 @@
 ## Acknowledgement
 This project is based on the implementation of
-- [YOLO 26](https://github.com/longzw1997/Open-GroundingDino](https://github.com/ultralytics/ultralytics))
+- [YOLO 26](https://github.com/ultralytics/ultralytics)
 - [RF DETR](https://github.com/roboflow/rf-detr)
 
 We thank the original authors and contributors for making their work publicly available.
