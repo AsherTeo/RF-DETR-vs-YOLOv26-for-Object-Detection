@@ -139,7 +139,7 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 
 ## 5. Pros and Cons
 
-### YOLOv26
+### YOLO 26
 **Pros**
 - Supports many data augmentation techniques (e.g., Mosaic, CutMix), which help improve model performance.
 - Highly optimized and widely used, making both training and inference efficient.
