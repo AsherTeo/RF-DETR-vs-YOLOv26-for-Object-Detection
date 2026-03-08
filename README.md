@@ -185,6 +185,6 @@ https://youtu.be/j7KvUfRjH3w
 
 - Across five datasets, RF-DETR achieves higher recall and performs better when detecting small objects such as fire.
 
-- YOLOv26 achieves higher mAP, indicating more precise object localization with tighter bounding boxes. 
+- YOLO 26 achieves higher mAP, indicating more precise object localization with tighter bounding boxes. 
 
 - Overall, both models show strong performance with different strengths depending on the detection requirements.
