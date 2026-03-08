@@ -155,15 +155,25 @@ In addition, a 25-shot training configuration was evaluated to analyze model per
 
 ## 6. Inference 
 
-Tested 7 fire videos using yolo 26 and rf detr using inference RTX 5070Ti
-Average letancey
-| Model | Recall | mAP@0.5 | Average Latency (ms) |
-|------|--------|---------|--------------|
-| YOLO |  0.923  | 0.950| 22.85 |
-| RF-DETR | **0.950**  | 0.940  |  46.01 |
+## Inference Results
 
-https://youtu.be/p8WVWJ38CXw
-https://youtu.be/ph1d436xnvY
+We tested **7 fire videos** using YOLOv26 and RF-DETR with inference on an **RTX 5070 Ti** GPU.  
+The table below reports the average performance across all test videos.
+
+| Model | Recall | mAP@0.5 | Average Latency (ms) |
+|------|--------|---------|----------------------|
+| YOLOv26 | 0.923 | **0.950** | **22.85** |
+| RF-DETR | **0.950** | 0.940 | 46.01 |
+
+## Video Results
+
+Comparison Video 1 
+https://youtu.be/p8WVWJ38CXw  
+
+Comparison Video 2
+https://youtu.be/ph1d436xnvY  
+
+Comparison Video 3
 https://youtu.be/j7KvUfRjH3w
 
 ## 7. Conclusion
