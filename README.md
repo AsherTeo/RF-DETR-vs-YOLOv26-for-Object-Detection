@@ -176,7 +176,7 @@ The table below reports the average performance across all test videos.
 
 | Model | Average Latency (ms) | Inference FPS |
 |------|----------------------|---------------|
-| YOLO 26 | 22.85 | 43.77 |
+| YOLO 26 | 24.43 | 40.94 |
 | RF-DETR | 21.74 | 46.01 |
 
 ## Video Results
